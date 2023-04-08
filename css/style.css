@@ -8,7 +8,7 @@
 
 
 #navBar{
-    background-color: #022444;
+    background-color: #022444 ;
 }
 
 .btn-personal{
@@ -26,7 +26,9 @@
 .bg-colorpersonal{
     background-color: #cda810;
 }
-
+.bg-colorpersonal2{
+    background-color: rgba(3, 134, 134, 0.267);
+}
 #uno{
     width: 20%;
     height: 20%;
@@ -150,7 +152,7 @@ font-family: 'Montserrat', sans-serif;
 .footer div h4{
     font-family: 'Times New Roman', Times, serif;
     color:#4c7296;
-    margin:160px;
+    margin:100px;
     cursor: pointer;
     
 }
@@ -258,18 +260,41 @@ h3,h4{
     color: #8d1812;
     transition: 2s;
 }
+/*CONTACTO*/
+
+.main{
+    height: auto;
+    width: auto;
+}
+
+
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    
+
+}
+
+
+
+
 
 /* Media Queries */
 
 @media(max-width:768px) {
 
+  
+
     .container{
-        display: flexbox;
-        flex-direction: column;
+        display:inline-block;
+       
         align-items: center;
         justify-content: center;
         justify-items: center;
         margin-left: 1px;
+        
     }
 
     #arriba{
@@ -286,6 +311,12 @@ h3,h4{
     .wrapper{
         margin: 15px auto;
         width: 80%;
+    }
+
+    #contenedor-formulario{
+        flex-direction: column;
+        justify-self:center;
+        align-items: center;
     }
     
 }
